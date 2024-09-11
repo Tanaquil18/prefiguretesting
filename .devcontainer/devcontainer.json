@@ -1,0 +1,16 @@
+{
+    "name": "PreFigure-Codespaces",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
+
+    "customizations": {
+        "codespaces": {
+            "openFiles": ["examples/tangent.xml"]
+        },
+        "vscode": {
+            "extensions": [
+                "vitaliymaz.vscode-svg-previewer"
+            ]
+        }
+    }
+}
