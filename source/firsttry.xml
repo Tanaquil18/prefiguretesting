@@ -1,0 +1,20 @@
+<diagram dimensions="(300,300)" margins="5">
+    <definition>f(x) = x </definition>
+    <definition>g(x) = -.5*x+4 </definition>
+    <definition>a = 8/3 </definition>
+    <coordinates bbox="[-2,-1,5,6]">
+        <axes decorations="no"/>
+        <graph at="line1" function='f' />
+        <graph at="line2" function='g' />
+        <point at="point" p="(a,f(a))" stroke="none" fill="none" size="5"/>
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The graph of two lines intersecting at a point">
+        <annotation ref="line1" text="First of the two lines"/>
+        <annotation ref="line2" text="Second of the two lines"/>
+        <annotation ref="point" text="Point of intersection of the two lines"/>
+      </annotation>
+  </annotations>
+</diagram>
