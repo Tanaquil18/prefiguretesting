@@ -1,0 +1,38 @@
+<diagram dimensions="(300,300)" margins="5">
+    <coordinates bbox="[-3,-2,4,4]">
+        <axes at="axes" hticks="(-3,1,4)" 
+        vticks="(-2,1,4)" hlabels="(1,1,1)" vlabels="(1,1,1)" />
+        <group at="vectors" outline="tactile">
+            <vector at="vector1" v="(1,1)" stroke="black" />
+            <vector at="vector2" v="(-2,1)" stroke="black" />
+            <vector at="vector1times3" v="(3,3)" stroke="black" />
+            <vector at="negativevector2" v="(2,-1)" stroke="black" />
+        </group>
+        <label anchor="(1,1)" tactile-anchor="(1,1.2)" alignment="northwest" offset="(-1,1)">
+            <m>\vec{x}</m>
+        </label>
+        <label anchor="(-2, 1.1)" alignment="north">
+            <m>\vec{y}</m>
+        </label>
+        <label anchor="(2.9,3.1)" alignment="northwest" >
+            <m>3\vec{x}</m>
+        </label>
+        <label anchor="(2,-0.8)" tactile-anchor="(2.5,-0.8)" alignment="north" >
+            <m>-\vec{y}</m>
+        </label>
+
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes, two vectors, and scalar multiplication of those vectors">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="vectors" text="Two vectors and some scalar multiples of them">
+          <annotation ref="vector1" text="Vector x drawn pointing up 1 and to the right 1"/>
+          <annotation ref="vector1times3" text="Three times vector x drawn pointing up 3 and to the right 3"/>
+          <annotation ref="vector2" text="Vector y drawn pointing to the left 2 and up 1"/>
+          <annotation ref="negativevector2" text="Negative vector y drawn pointing to the right 2 and down 1" />
+        </annotation>
+      </annotation>
+  </annotations>
+</diagram>

@@ -1,0 +1,39 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with two vectors drawn without coordinates given">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vector1</active>
+        <active>vector2</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vector1</active>
+        <active>vector2</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1" speech2="Vector x drawn pointing up and to the right            with origin at the point x=0, y=0">
+      <active>vector1</active>
+      <position>2</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2" speech2="Vector y drawn pointing up and to the left           with origin at the point x=0, y=0">
+      <active>vector2</active>
+      <position>3</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

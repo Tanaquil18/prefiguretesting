@@ -1,0 +1,40 @@
+<diagram dimensions="(300,200)" margins="5">
+    <coordinates bbox="[-5,-1,4,4.6]">
+        <axes at="axes" decorations="no" />
+        <group at="vectors" outline="tactile">
+            <vector at="vector1" v="(2,2)" stroke="black" />
+            <vector at="vector1a" v="(2,2)" tail="(-3,2)" stroke="gray" />
+            <vector at="vector2" v="(-3,2)" stroke="black" />
+            <vector at="vector2a" v="(-3,2)" tail="(2,2)" stroke="gray" />
+            <vector at="vector3" v="(-1,4)" stroke="black" dash="9 9" />
+        </group>
+        <label anchor="(2,2)" alignment="east" offset="(2,0)">
+            <m>\vec{x}</m>
+        </label>
+        <label anchor="(-3.2, 2)" tactile-anchor="(-4,2)" alignment="west">
+            <m>\vec{y}</m>
+        </label>
+        <label anchor="(-1, 4)" alignment="north" offset="(0,2)">
+            <m>\vec{x}+\vec{y}</m>
+        </label>
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with two vectors and their sum drawn without coordinates given">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="vector-sum" text="The vector x, the vector y, and the vector that is their sum drawn using parallelogram rule">
+            <annotation ref="vector1" text="Vector x drawn pointing up and to the right 
+          with origin at the point x=0, y=0"/>
+            <annotation ref="vector2" text="Vector y drawn pointing up and to the left
+          with origin at the point x=0, y=0"/>
+            <annotation ref="vector1a" text="Vector x drawn pointing up and to the right 
+          with origin at the head of vector y"/>
+            <annotation ref="vector2a" text="Vector y drawn pointing up and to the left
+          with origin at the head of vector x"/>
+            <annotation ref="vector3" text="The sum of vector x and vector y drawn
+          with origin at the point x=0, y=0"/>
+        </annotation>
+      </annotation>
+  </annotations>
+</diagram>

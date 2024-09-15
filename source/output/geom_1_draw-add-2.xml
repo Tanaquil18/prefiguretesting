@@ -1,0 +1,79 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with two vectors and their sum drawn without coordinates given">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vector-sum</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vector-sum</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector-sum" speech2="The vector x, the vector y, and the vector that is their sum drawn using parallelogram rule">
+      <grouped>vector-sum</grouped>
+      <position>2</position>
+      <children>
+        <active>vector1</active>
+        <active>vector2</active>
+        <active>vector1a</active>
+        <active>vector2a</active>
+        <active>vector3</active>
+      </children>
+      <components>
+        <active>vector1</active>
+        <active>vector2</active>
+        <active>vector1a</active>
+        <active>vector2a</active>
+        <active>vector3</active>
+      </components>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1" speech2="Vector x drawn pointing up and to the right            with origin at the point x=0, y=0">
+      <active>vector1</active>
+      <position>1</position>
+      <parents>
+        <grouped>vector-sum</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2" speech2="Vector y drawn pointing up and to the left           with origin at the point x=0, y=0">
+      <active>vector2</active>
+      <position>2</position>
+      <parents>
+        <grouped>vector-sum</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1a" speech2="Vector x drawn pointing up and to the right            with origin at the head of vector y">
+      <active>vector1a</active>
+      <position>3</position>
+      <parents>
+        <grouped>vector-sum</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2a" speech2="Vector y drawn pointing up and to the left           with origin at the head of vector x">
+      <active>vector2a</active>
+      <position>4</position>
+      <parents>
+        <grouped>vector-sum</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector3" speech2="The sum of vector x and vector y drawn           with origin at the point x=0, y=0">
+      <active>vector3</active>
+      <position>5</position>
+      <parents>
+        <grouped>vector-sum</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

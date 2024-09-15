@@ -1,0 +1,33 @@
+<diagram dimensions="(300,300)" margins="5">
+    <coordinates bbox="[-3,-3,3,3]">
+        <axes at="axes" hticks="(-2,1,2)" 
+        vticks="(-2,1,2)" hlabels="(2,1,2)" vlabels="(1,1,1)" />
+        <vector at="vector1" v="(1,-1)" tail="(0,-1)" stroke="black" />
+        <label anchor="(1,-2)" alignment="southeast" offset="(1,-1)">
+            <m>\vec{x}</m>
+        </label>
+        <vector at="vector2" v="(2,3)" tail="(-1,-1)" stroke="black" />
+        <label anchor="(1, 2)" alignment="northeast" offset="(2,1)">
+            <m>\vec{y}</m>
+        </label>
+        <vector at="vector3" v="(-3,2)" tail="(2,-1)" stroke="black" />
+        <label anchor="(-1,1)" alignment="northwest" offset="(-2,1)" tactile-offset="(-2,5)">
+            <m>\vec{z}</m>
+        </label>
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes and three different vectors">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="three-vectors" text="Three different vectors drawn, each with a different origin">
+          <annotation ref="vector1" text="Vector x drawn pointing to the right 1 unit and down 1 unit 
+          with origin at the point x=0, y=-1"/>
+          <annotation ref="vector2" text="Vector y drawn pointing to the right 2 units and up 3 units 
+          with origin at the point x=-1, y=-1"/>
+          <annotation ref="vector3" text="Vector z drawn pointing to the left 3 units and up 2 units 
+          with origin at the point x=2, y=-1"/>
+        </annotation>
+      </annotation>
+  </annotations>
+</diagram>

@@ -1,0 +1,21 @@
+<diagram dimensions="(300,300)" margins="5">
+    <coordinates bbox="[-3,-2.5,3,2.5]">
+        <axes at="axes" decorations="no" hticks="(-2,1,2)" 
+        vticks="(-2,1,2)" hlabels="(1,1,1)" vlabels="(1,1,1)" />
+        <vector at="origin1" v="(1,2)" stroke="black" />
+        <vector at="origin2" v="(1,2)" tail="(-2,-2)" stroke="black" />
+        <vector at="origin3" v="(1,2)" tail="(1,-1)" stroke="black" />
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes and the same vector with three different origins">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="vector-origins" text="The same vector drawn in three different locations">
+          <annotation ref="origin1" text="Same vector with first of three different origins"/>
+          <annotation ref="origin2" text="Same vector with second of three different origins"/>
+          <annotation ref="origin3" text="Same vector with third of three different origins"/>
+        </annotation>
+      </annotation>
+  </annotations>
+</diagram>

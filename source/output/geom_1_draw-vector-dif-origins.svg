@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="diagram" width="828.0" height="792">
+  <defs>
+    <clipPath id="clipPath-0">
+      <rect x="90.0" y="72.0" width="648.0" height="648.0"/>
+    </clipPath>
+    <clipPath id="clipPath-1">
+      <rect x="90.0" y="72.0" width="648.0" height="648.0"/>
+    </clipPath>
+    <marker id="arrow-head-4" markerWidth="36.0" markerHeight="33.6" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="27.0" refY="16.8">
+      <path d="M 36.0 16.8 L 0.0 33.6 L 0.0 0.0 Z" fill="context-stroke" stroke="context-none"/>
+    </marker>
+    <marker id="arrow-head-4-outline" markerWidth="54.0" markerHeight="51.6" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="36.0" refY="25.8">
+      <path d="M 48.8 33.9 L 12.8 50.7 A 9 9 0 0 1 0.0 42.6 L 0.0 9.0 A 9 9 0 0 1 12.8 0.8 L 48.8 17.6 A 9 9 0 0 1 48.8 33.9 Z" fill="context-stroke" stroke="context-none"/>
+    </marker>
+    <path id="origin1-outline" d="M 414.0 396.0 L 522.0 136.8" type="vector"/>
+    <path id="origin2-outline" d="M 198.0 655.2 L 306.0 396.0" type="vector"/>
+    <path id="origin3-outline" d="M 522.0 525.6 L 630.0 266.4" type="vector"/>
+  </defs>
+  <g id="axes" stroke="black" stroke-width="2">
+    <line id="line-0" x1="90.0" y1="396.0" x2="738.0" y2="396.0" type="horizontal axis" stroke-width="2"/>
+    <line id="line-1" x1="414.0" y1="720.0" x2="414.0" y2="72.0" type="vertical axis" stroke-width="2"/>
+    <g type="horizontal ticks" id="g-0">
+      <line id="line-2" x1="198.0" y1="414.0" x2="198.0" y2="396.0" type="tick on horizontal axis"/>
+      <line id="line-3" x1="306.0" y1="414.0" x2="306.0" y2="396.0" type="tick on horizontal axis"/>
+      <line id="line-4" x1="414.0" y1="414.0" x2="414.0" y2="396.0" type="tick on horizontal axis"/>
+      <line id="line-5" x1="522.0" y1="414.0" x2="522.0" y2="396.0" type="tick on horizontal axis"/>
+      <line id="line-6" x1="630.0" y1="414.0" x2="630.0" y2="396.0" type="tick on horizontal axis"/>
+      <line id="line-7" x1="522.0" y1="414.0" x2="522.0" y2="396.0" type="tick on horizontal axis"/>
+    </g>
+    <g type="vertical ticks" id="g-1">
+      <line id="line-8" x1="396.0" y1="655.2" x2="414.0" y2="655.2" type="tick on vertical axis"/>
+      <line id="line-9" x1="396.0" y1="525.6" x2="414.0" y2="525.6" type="tick on vertical axis"/>
+      <line id="line-10" x1="396.0" y1="396.0" x2="414.0" y2="396.0" type="tick on vertical axis"/>
+      <line id="line-11" x1="396.0" y1="266.4" x2="414.0" y2="266.4" type="tick on vertical axis"/>
+      <line id="line-12" x1="396.0" y1="136.8" x2="414.0" y2="136.8" type="tick on vertical axis"/>
+      <line id="line-13" x1="396.0" y1="266.4" x2="414.0" y2="266.4" type="tick on vertical axis"/>
+    </g>
+  </g>
+  <use fill="black" stroke-width="22" stroke="white" xlink:href="#origin1-outline" marker-end="url(#arrow-head-4-outline)"/>
+  <use id="origin1" fill="black" stroke-width="4" stroke="black" stroke-dasharray="none" xlink:href="#origin1-outline" marker-end="url(#arrow-head-4)"/>
+  <use fill="black" stroke-width="22" stroke="white" xlink:href="#origin2-outline" marker-end="url(#arrow-head-4-outline)"/>
+  <use id="origin2" fill="black" stroke-width="4" stroke="black" stroke-dasharray="none" xlink:href="#origin2-outline" marker-end="url(#arrow-head-4)"/>
+  <use fill="black" stroke-width="22" stroke="white" xlink:href="#origin3-outline" marker-end="url(#arrow-head-4-outline)"/>
+  <use id="origin3" fill="black" stroke-width="4" stroke="black" stroke-dasharray="none" xlink:href="#origin3-outline" marker-end="url(#arrow-head-4)"/>
+  <g>
+    <rect x="498.6" y="437.4" width="36.0" height="36.0" stroke="none" fill="#fff"/>
+    <rect x="333.0" y="246.6" width="36.0" height="36.0" stroke="none" fill="#fff"/>
+  </g>
+  <g>
+    <g id="label-0">
+      <text x="507.6" y="464.4" font-family="Braille29" font-size="29px">⠂</text>
+    </g>
+    <g id="label-1">
+      <text x="342.0" y="273.6" font-family="Braille29" font-size="29px">⠂</text>
+    </g>
+  </g>
+</svg>

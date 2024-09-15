@@ -1,0 +1,51 @@
+<diagram dimensions="(300,200)" margins="5">
+    <coordinates bbox="[-1,-1,5,3]">
+        <axes at="axes" hticks="(-1,1,5)" 
+        vticks="(-1,1,3)" hlabels="(1,1,1)" vlabels="(1,1,1)" />
+        <polygon at="pgram" points="((0,0),(1,1),(4,2),(3,1))" closed="yes"
+	     fill="blue" opacity="0.1" stroke="none"/>
+        <group at="vectors" outline="tactile">
+            <vector at="vector1" v="(1,1)" stroke="black" />
+            <vector at="vector1a" v="(1,1)" tail="(3,1)" stroke="gray" />
+            <vector at="vector2" v="(3,1)" stroke="black" />
+            <vector at="vector2a" v="(3,1)" tail="(1,1)" stroke="gray" />
+            <vector at="vector3" v="(4,2)" stroke="black" dash="9 9" />
+        
+        </group>
+        <label anchor="(0.5,0.8)" tactile-anchor="(0.3,0.6)" alignment="west">
+            <m>\vec{x}</m>
+        </label>
+        <label anchor="(3.55,1.2)" alignment="northeast">
+            <m>\vec{x}</m>
+        </label>
+        <label anchor="(1.5, 0.3)" tactile-anchor="(2.0,0.3)" offset="(0,-1.8)">
+            <m>\vec{y}</m>
+        </label>
+        <label anchor="(2.6, 1.8)" alignment="west">
+            <m>\vec{y}</m>
+        </label>
+        <label anchor="(4,2)" alignment="northeast" offset="(2,2)" >
+            <m>\vec{x}+\vec{y}</m>
+        </label>
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with the parallelogram defined by two vectors and their sum">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="sum-vectors" text="The parallelogram defined by two vectors and the vector that is their sum">
+          <annotation ref="vector1" text="Vector x drawn pointing to the right 1 unit and up 1 unit 
+          with origin at the point x=0, y=0"/>
+          <annotation ref="vector2" text="Vector y drawn pointing to the right 3 units and up 1 unit 
+          with origin at the point x=0, y=0"/>
+          <annotation ref="vector3" text="Vector x plus vector y drawn pointing to the right 4 units and up 2 units 
+          with origin at the point x=0, y=0"/>
+          <annotation ref="vector1a" text="Vector x drawn pointing to the right 1 unit and up 1 unit 
+          with origin at the point x=3, y=1"/>
+          <annotation ref="vector2a" text="Vector y drawn pointing to the right 3 units and up 1 unit 
+          with origin at the point x=1, y=1"/>
+          <annotation ref="pgram" text="The parallelogram defined by the vector x, the vector y, and their sum" />
+        </annotation>   
+      </annotation>
+  </annotations>
+</diagram>

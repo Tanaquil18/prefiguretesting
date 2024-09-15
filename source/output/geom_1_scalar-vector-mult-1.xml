@@ -1,0 +1,70 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with axes, two vectors, and scalar multiplication of those vectors">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vectors</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vectors</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectors" speech2="Two vectors and some scalar multiples of them">
+      <grouped>vectors</grouped>
+      <position>2</position>
+      <children>
+        <active>vector1</active>
+        <active>vector1times3</active>
+        <active>vector2</active>
+        <active>negativevector2</active>
+      </children>
+      <components>
+        <active>vector1</active>
+        <active>vector1times3</active>
+        <active>vector2</active>
+        <active>negativevector2</active>
+      </components>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1" speech2="Vector x drawn pointing up 1 and to the right 1">
+      <active>vector1</active>
+      <position>1</position>
+      <parents>
+        <grouped>vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1times3" speech2="Three times vector x drawn pointing up 3 and to the right 3">
+      <active>vector1times3</active>
+      <position>2</position>
+      <parents>
+        <grouped>vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2" speech2="Vector y drawn pointing to the left 2 and up 1">
+      <active>vector2</active>
+      <position>3</position>
+      <parents>
+        <grouped>vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="negativevector2" speech2="Negative vector y drawn pointing to the right 2 and down 1">
+      <active>negativevector2</active>
+      <position>4</position>
+      <parents>
+        <grouped>vectors</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

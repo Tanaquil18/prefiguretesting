@@ -1,0 +1,88 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with the parallelogram defined by two vectors and their sum">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>sum-vectors</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>sum-vectors</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="sum-vectors" speech2="The parallelogram defined by two vectors and the vector that is their sum">
+      <grouped>sum-vectors</grouped>
+      <position>2</position>
+      <children>
+        <active>vector1</active>
+        <active>vector2</active>
+        <active>vector3</active>
+        <active>vector1a</active>
+        <active>vector2a</active>
+        <active>pgram</active>
+      </children>
+      <components>
+        <active>vector1</active>
+        <active>vector2</active>
+        <active>vector3</active>
+        <active>vector1a</active>
+        <active>vector2a</active>
+        <active>pgram</active>
+      </components>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1" speech2="Vector x drawn pointing to the right 1 unit and up 1 unit            with origin at the point x=0, y=0">
+      <active>vector1</active>
+      <position>1</position>
+      <parents>
+        <grouped>sum-vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2" speech2="Vector y drawn pointing to the right 3 units and up 1 unit            with origin at the point x=0, y=0">
+      <active>vector2</active>
+      <position>2</position>
+      <parents>
+        <grouped>sum-vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector3" speech2="Vector x plus vector y drawn pointing to the right 4 units and up 2 units            with origin at the point x=0, y=0">
+      <active>vector3</active>
+      <position>3</position>
+      <parents>
+        <grouped>sum-vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1a" speech2="Vector x drawn pointing to the right 1 unit and up 1 unit            with origin at the point x=3, y=1">
+      <active>vector1a</active>
+      <position>4</position>
+      <parents>
+        <grouped>sum-vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2a" speech2="Vector y drawn pointing to the right 3 units and up 1 unit            with origin at the point x=1, y=1">
+      <active>vector2a</active>
+      <position>5</position>
+      <parents>
+        <grouped>sum-vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="pgram" speech2="The parallelogram defined by the vector x, the vector y, and their sum">
+      <active>pgram</active>
+      <position>6</position>
+      <parents>
+        <grouped>sum-vectors</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

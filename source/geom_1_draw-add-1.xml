@@ -1,0 +1,26 @@
+<diagram dimensions="(300,200)" margins="5">
+    <coordinates bbox="[-5,-1,4,4]">
+        <axes at="axes" decorations="no" />
+        <group at="vectors" outline="tactile">
+        <vector at="vector1" v="(2,2)" stroke="black" />
+        <vector at="vector2" v="(-3,2)" stroke="black" />
+        </group>
+        <label anchor="(2,2)" alignment="east" offset="(2,0)">
+            <m>\vec{x}</m>
+        </label>
+        <label anchor="(-3, 2)" alignment="north" offset="(0,2)">
+            <m>\vec{y}</m>
+        </label>
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with two vectors drawn without coordinates given">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="vector1" text="Vector x drawn pointing up and to the right 
+          with origin at the point x=0, y=0"/>
+        <annotation ref="vector2" text="Vector y drawn pointing up and to the left
+          with origin at the point x=0, y=0"/>
+      </annotation>
+  </annotations>
+</diagram>

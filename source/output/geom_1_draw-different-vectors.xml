@@ -1,0 +1,61 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with axes and three different vectors">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>three-vectors</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>three-vectors</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="three-vectors" speech2="Three different vectors drawn, each with a different origin">
+      <grouped>three-vectors</grouped>
+      <position>2</position>
+      <children>
+        <active>vector1</active>
+        <active>vector2</active>
+        <active>vector3</active>
+      </children>
+      <components>
+        <active>vector1</active>
+        <active>vector2</active>
+        <active>vector3</active>
+      </components>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1" speech2="Vector x drawn pointing to the right 1 unit and down 1 unit            with origin at the point x=0, y=-1">
+      <active>vector1</active>
+      <position>1</position>
+      <parents>
+        <grouped>three-vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2" speech2="Vector y drawn pointing to the right 2 units and up 3 units            with origin at the point x=-1, y=-1">
+      <active>vector2</active>
+      <position>2</position>
+      <parents>
+        <grouped>three-vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector3" speech2="Vector z drawn pointing to the left 3 units and up 2 units            with origin at the point x=2, y=-1">
+      <active>vector3</active>
+      <position>3</position>
+      <parents>
+        <grouped>three-vectors</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>
