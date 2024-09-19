@@ -1,0 +1,47 @@
+<diagram dimensions="(300,200)" margins="5">
+    <coordinates bbox="[-3,-1.5,3.5,2]">
+        <axes at="axes" decorations="no" />
+        <group at="vectors" outline="tactile">
+            <group at="vector-x" >
+                <vector at="vector1" v="(1,0.5)" stroke="black" />
+                <label anchor="(1.1,0.4)" alignment="east">
+                <m>\vec{x}</m>
+                </label>
+            </group>
+            <vector at="vector2" v="(-2,1)" stroke="black" />
+            <vector at="vector1times3" v="(3,1.5)" stroke="black" />
+            <vector at="negative2timesvector1" v="(-2,-1)" stroke="black" />
+            <vector at="vector2timeshalf" v="(-1,0.5)" stroke="black" />
+        </group>
+        
+        <label anchor="(-2, 1.1)" alignment="north">
+            <m>\vec{y}</m>
+        </label>
+        <label anchor="(3.0,1.4)" alignment="east" >
+            <m>3\vec{x}</m>
+        </label>
+        <label anchor="(-1.8,-1.1)" alignment="south" >
+            <m>-2\vec{x}</m>
+        </label>
+        <label anchor="(-1,0.6)" alignment="north" >
+            <m>\frac{1}{2}\vec{y}</m>
+        </label>
+
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes, two vectors drawn without coordinate numbers, and some scalar multiples of them">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="vector1andmults" text="Vector x and some scalar multiples">
+          <annotation ref="vector-x" text="Vector x"/>
+          <annotation ref="vector1times3" text="Three times vector x, drawn three times as long as vector x"/>
+          <annotation ref="negative2timesvector1" text="Negative 2 times vector x, drawn twice as long as vector x and pointing in the opposite direction"/>
+        </annotation>
+        <annotation ref="vector2mults" text="Vector y and a scalar multiple">
+          <annotation ref="vector2" text="Vector y"/>
+          <annotation ref="vector2timeshalf" text="One-half times vector y, drawn half as long as vector y" />
+        </annotation>
+      </annotation>
+  </annotations>
+</diagram>

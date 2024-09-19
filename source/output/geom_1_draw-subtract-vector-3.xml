@@ -1,0 +1,66 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with axes, a vector x, a vector y, and the vector x minus vector y">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vectorx</active>
+        <active>vectory</active>
+        <active>vectornegy</active>
+        <active>vectorxminusy</active>
+        <active>vectorxminusytailchange</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vectorx</active>
+        <active>vectory</active>
+        <active>vectornegy</active>
+        <active>vectorxminusy</active>
+        <active>vectorxminusytailchange</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorx" speech2="Vector x">
+      <active>vectorx</active>
+      <position>2</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectory" speech2="Vector y">
+      <active>vectory</active>
+      <position>3</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectornegy" speech2="Vector negative y">
+      <active>vectornegy</active>
+      <position>4</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorxminusy" speech2="Vector x minus vector y drawn with tail at the origin">
+      <active>vectorxminusy</active>
+      <position>5</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorxminusytailchange" speech2="Vector x minus vector y drawn with tail at the head of y">
+      <active>vectorxminusytailchange</active>
+      <position>6</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

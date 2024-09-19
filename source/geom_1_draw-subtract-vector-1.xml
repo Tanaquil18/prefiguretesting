@@ -1,0 +1,43 @@
+<diagram dimensions="(300,200)" margins="5">
+    <coordinates bbox="[-3,-0.5,3.5,1.5]">
+        <axes at="axes" decorations="no" />
+        <group at="vectors" outline="tactile">
+            <group at="vectorx" >
+                <vector at="vector1" v="(1,0.5)" stroke="black" />
+                <label anchor="(1.1,0.5)" alignment="east">
+                    <m>\vec{x}</m>
+                </label>
+            </group>
+            <group at="vectory" >
+                <vector at="vector2" v="(-1,1)" stroke="black" />
+                <label anchor="(-1, 1.1)" alignment="north">
+                    <m>\vec{y}</m>
+                </label>
+            </group>
+            <!-- <vector at="vector1times3" v="(3,3)" stroke="black" />
+            <vector at="negativevector2" v="(2,-1)" stroke="black" /> -->
+        </group>
+        
+        
+        <!-- <label anchor="(2.9,3.1)" alignment="northwest" >
+            <m>3\vec{x}</m>
+        </label>
+        <label anchor="(2,-0.8)" tactile-anchor="(2.5,-0.8)" alignment="north" >
+            <m>-\vec{y}</m>
+        </label> -->
+
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes and two vectors drawn without coordinate numbers">
+        <annotation ref="axes" text="The coordinate axes" />
+        <!-- <annotation ref="vectors" text="Two vectors"> -->
+          <annotation ref="vectorx" text="Vector x"/>
+          <!-- <annotation ref="vector1times3" text="Three times vector x drawn pointing up 3 and to the right 3"/> -->
+          <annotation ref="vectory" text="Vector y"/>
+          <!-- <annotation ref="negativevector2" text="Negative vector y drawn pointing to the right 2 and down 1" /> -->
+        <!-- </annotation> -->
+      </annotation>
+  </annotations>
+</diagram>

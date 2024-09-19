@@ -1,0 +1,92 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with axes, two vectors drawn without coordinate numbers, and some scalar multiples of them">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vector1andmults</active>
+        <active>vector2mults</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vector1andmults</active>
+        <active>vector2mults</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1andmults" speech2="Vector x and some scalar multiples">
+      <grouped>vector1andmults</grouped>
+      <position>2</position>
+      <children>
+        <active>vector1</active>
+        <active>vector1times3</active>
+        <active>negative2timesvector1</active>
+      </children>
+      <components>
+        <active>vector1</active>
+        <active>vector1times3</active>
+        <active>negative2timesvector1</active>
+      </components>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1" speech2="Vector x">
+      <active>vector1</active>
+      <position>1</position>
+      <parents>
+        <grouped>vector1andmults</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector1times3" speech2="Three times vector x, drawn three times as long as vector x">
+      <active>vector1times3</active>
+      <position>2</position>
+      <parents>
+        <grouped>vector1andmults</grouped>
+      </parents>
+    </annotation>
+    <annotation id="negative2timesvector1" speech2="Negative 2 times vector x, drawn twice as long as vector x and pointing in the opposite direction">
+      <active>negative2timesvector1</active>
+      <position>3</position>
+      <parents>
+        <grouped>vector1andmults</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2mults" speech2="Vector y and a scalar multiple">
+      <grouped>vector2mults</grouped>
+      <position>3</position>
+      <children>
+        <active>vector2</active>
+        <active>vector2timeshalf</active>
+      </children>
+      <components>
+        <active>vector2</active>
+        <active>vector2timeshalf</active>
+      </components>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2" speech2="Vector y">
+      <active>vector2</active>
+      <position>1</position>
+      <parents>
+        <grouped>vector2mults</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vector2timeshalf" speech2="One-half times vector y, drawn half as long as vector y">
+      <active>vector2timeshalf</active>
+      <position>2</position>
+      <parents>
+        <grouped>vector2mults</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>
