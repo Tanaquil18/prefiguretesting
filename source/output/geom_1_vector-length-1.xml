@@ -1,0 +1,48 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with axes, a vector x, horizontal and vertical line segments making x the hypotenuse of a right triangle">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vectorx</active>
+        <active>horiz</active>
+        <active>vertic</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vectorx</active>
+        <active>horiz</active>
+        <active>vertic</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorx" speech2="Vector x">
+      <active>vectorx</active>
+      <position>2</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="horiz" speech2="A horizontal line segment starting at the tail of vector x and ending at the same x coordinate as the head of vector x">
+      <active>horiz</active>
+      <position>3</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vertic" speech2="A vertical line segment starting at the head of vector x and ending at the same y coordinate as the tail of vector x">
+      <active>vertic</active>
+      <position>4</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

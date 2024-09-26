@@ -1,0 +1,39 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with axes, vector y, and the result of multiplying matrix A by vector y">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vectory</active>
+        <active>vectorAy</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vectory</active>
+        <active>vectorAy</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectory" speech2="Vector y">
+      <active>vectory</active>
+      <position>2</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorAy" speech2="The vector that is the result of multiplying matrix A times vector y">
+      <active>vectorAy</active>
+      <position>3</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

@@ -1,0 +1,27 @@
+<diagram dimensions="(300,300)" margins="5">
+    <coordinates bbox="[-1,-1,5,5]">
+        <axes at="axes" hticks="(-1,1,5)" vticks="(-1,1,5)" hlabels="(1,1,1)" vlabels="(1,1,1)"/>
+        <group at="vectors" outline="tactile">
+            <group at="vectorx" >
+                <vector at="vector1" v="(4,3)" tail="(0,1)" stroke="black" />
+                <label anchor="(4,4)" alignment="northwest" offset="(-5,3)">
+                    <m>\vec{x}</m>
+                </label>
+            </group>
+            <line at="horiz" endpoints="((0,1),(4,1))" stroke="black" dash="9 9" />
+            <line at="vertic" endpoints="((4,1),(4,4))" stroke="black" dash="3 3" />
+        </group>
+        
+
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes, a vector x, horizontal and vertical line segments making x the hypotenuse of a right triangle">
+        <annotation ref="axes" text="The coordinate axes" />
+          <annotation ref="vectorx" text="Vector x"/>
+          <annotation ref="horiz" text="A horizontal line segment starting at the tail of vector x and ending at the same x coordinate as the head of vector x"/>
+          <annotation ref="vertic" text="A vertical line segment starting at the head of vector x and ending at the same y coordinate as the tail of vector x"/>
+      </annotation>
+  </annotations>
+</diagram>

@@ -1,0 +1,59 @@
+<diagram dimensions="(300,300)" margins="5">
+    <coordinates bbox="[-2.5,-1.5,6.5,5.5]">
+        <axes at="axes" decorations="no" hticks="(-2,1,6)" vticks="(-1,1,5)" />
+        <group at="vectors" outline="tactile">
+            <group at="vectorAx" >
+                <vector at="vector4" v="(5,5)" stroke="black" />
+                <label anchor="(5,5)" alignment="northeast">
+                    <m>A\vec{x}</m>
+                </label>
+            </group>
+            <group at="vectorx" >
+                <vector at="vector1" v="(1,1)" stroke="black" />
+                <label anchor="(1,1)" offset="(3,0)" alignment="east">
+                    <m>\vec{x}</m>
+                </label>
+            </group>
+            <group at="vectory" >
+                <vector at="vector2" v="(-1,1)"  stroke="black" />
+                <label anchor="(-1,1)" alignment="northwest" >
+                    <m>\vec{y}</m>
+                </label>
+            </group>
+            <group at="vectorz" >
+                <vector at="vector3" v="(3,-1)"  stroke="black" />
+                <label anchor="(3,-1)" alignment="southeast" >
+                    <m>\vec{z}</m>
+                </label>
+            </group>
+            
+            <group at="vectorAy" >
+                <vector at="vector5" v="(3,1)"  stroke="black" />
+                <label anchor="(3,1)" alignment="east" >
+                    <m>A\vec{y}</m>
+                </label>
+            </group>
+            <group at="vectorAz" >
+                <vector at="vector6" v="(-1,3)" stroke="black" />
+                <label anchor="(-1,3)"  alignment="north" offset="(0,5)">
+                    <m>A\vec{z}</m>
+                </label>
+            </group>
+        </group>
+        
+
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes, three vectors, and the result of multiplying matrix A by each of the vectors">
+        <annotation ref="axes" text="The coordinate axes" />
+          <annotation ref="vectorx" text="Vector x"/>
+          <annotation ref="vectorAx" text="The vector that is the result of multiplying matrix A times vector x"/>
+          <annotation ref="vectory" text="Vector y"/>
+          <annotation ref="vectorAy" text="The vector that is the result of multiplying matrix A times vector y"/>
+          <annotation ref="vectorz" text="Vector z"/>
+          <annotation ref="vectorAz" text="The vector that is the result of multiplying matrix A times vector z"/>
+      </annotation>
+  </annotations>
+</diagram>

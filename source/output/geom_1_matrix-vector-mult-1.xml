@@ -1,0 +1,75 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with axes, three vectors, and the result of multiplying matrix A by each of the vectors">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vectorx</active>
+        <active>vectorAx</active>
+        <active>vectory</active>
+        <active>vectorAy</active>
+        <active>vectorz</active>
+        <active>vectorAz</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vectorx</active>
+        <active>vectorAx</active>
+        <active>vectory</active>
+        <active>vectorAy</active>
+        <active>vectorz</active>
+        <active>vectorAz</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorx" speech2="Vector x">
+      <active>vectorx</active>
+      <position>2</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorAx" speech2="The vector that is the result of multiplying matrix A times vector x">
+      <active>vectorAx</active>
+      <position>3</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectory" speech2="Vector y">
+      <active>vectory</active>
+      <position>4</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorAy" speech2="The vector that is the result of multiplying matrix A times vector y">
+      <active>vectorAy</active>
+      <position>5</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorz" speech2="Vector z">
+      <active>vectorz</active>
+      <position>6</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorAz" speech2="The vector that is the result of multiplying matrix A times vector z">
+      <active>vectorAz</active>
+      <position>7</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

@@ -1,0 +1,31 @@
+<diagram dimensions="(300,300)" margins="5">
+    <coordinates bbox="[-2.5,-1.5,6.5,5.5]">
+        <axes at="axes" decorations="no" hticks="(-2,1,6)" vticks="(-1,1,5)" />
+        <group at="vectors" outline="tactile">
+            <group at="vectorAx" >
+                <vector at="vector4" v="(5,5)" stroke="black" />
+                <label anchor="(5,5)" alignment="northeast">
+                    <m>A\vec{x}</m>
+                </label>
+            </group>
+            <group at="vectorx" >
+                <vector at="vector1" v="(1,1)" stroke="black" />
+                <label anchor="(1,1)" offset="(3,0)" tactile-offset="(9,0)" alignment="east">
+                    <m>\vec{x}</m>
+                </label>
+            </group>
+            
+        </group>
+        
+
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes, vector x, and the result of multiplying matrix A by vector x">
+        <annotation ref="axes" text="The coordinate axes" />
+          <annotation ref="vectorx" text="Vector x"/>
+          <annotation ref="vectorAx" text="The vector that is the result of multiplying matrix A times vector x"/>
+      </annotation>
+  </annotations>
+</diagram>

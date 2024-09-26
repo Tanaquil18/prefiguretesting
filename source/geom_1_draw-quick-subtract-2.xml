@@ -1,0 +1,39 @@
+<diagram dimensions="(300,200)" margins="5">
+    <coordinates bbox="[-1,-2.5,3.5,2.5]">
+        <axes at="axes" decorations="no" />
+        <group at="vectors" outline="tactile">
+            <group at="vectory">
+                <vector at="vector1" v="(1,1)" stroke="black" />
+                <label anchor="(1,1.1)" alignment="north">
+                    <m>\vec{y}</m>
+                </label>
+            </group>
+            <group at="vectorx">
+                <vector at="vector2" v="(1,-1)" stroke="black" />
+                <label anchor="(1, -1.1)" alignment="south">
+                    <m>\vec{x}</m>
+                </label>
+            </group>
+            <group at="vectorxminusy">
+                <vector at="vector3" v="(0,-2)" tail="(1,1)" stroke="black" />
+                <label anchor="(1.15, -0.7)" tactile-anchor="(1.1,-0.7)" alignment="east">
+                    <m>\vec{x}-\vec{y}</m>
+                </label>
+            </group>
+        </group>
+        
+
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes, two vectors, and one vector subtracted from the other one">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="vectors" text="Two vectors and one vector subtracted from the other vector">
+          <annotation ref="vectorx" text="Vector x"/>
+          <annotation ref="vectory" text="Vector y"/>
+          <annotation ref="vectorxminusy" text="Vector x minus vector y drawn with tail at the head of y" />
+        </annotation>
+      </annotation>
+  </annotations>
+</diagram>

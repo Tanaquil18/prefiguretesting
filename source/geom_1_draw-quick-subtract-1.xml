@@ -1,0 +1,32 @@
+<diagram dimensions="(300,200)" margins="5">
+    <coordinates bbox="[-2,-2.5,2.5,2.5]">
+        <axes at="axes" decorations="no" />
+        <group at="vectors" outline="tactile">
+            <group at="vectory">
+                <vector at="vector1" v="(1,1)" stroke="black" />
+                <label anchor="(1,1.1)" alignment="north">
+                    <m>\vec{y}</m>
+                </label>
+            </group>
+            <group at="vectorx">
+                <vector at="vector2" v="(1,-1)" stroke="black" />
+                <label anchor="(1, -1.1)" alignment="south">
+                    <m>\vec{x}</m>
+                </label>
+            </group>
+        </group>
+        
+
+    </coordinates>
+
+    <annotations>
+    <annotation ref="figure"
+                text="The two-dimensional plane with axes and two vectors drawn without coordinate numbers">
+        <annotation ref="axes" text="The coordinate axes" />
+        <annotation ref="vectors" text="Two vectors">
+          <annotation ref="vectorx" text="Vector x"/>
+          <annotation ref="vectory" text="Vector y"/>
+        </annotation>
+      </annotation>
+  </annotations>
+</diagram>

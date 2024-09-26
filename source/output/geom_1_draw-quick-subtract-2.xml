@@ -1,0 +1,61 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="The two-dimensional plane with axes, two vectors, and one vector subtracted from the other one">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>axes</active>
+        <active>vectors</active>
+      </children>
+      <components>
+        <active>axes</active>
+        <active>vectors</active>
+      </components>
+    </annotation>
+    <annotation id="axes" speech2="The coordinate axes">
+      <active>axes</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectors" speech2="Two vectors and one vector subtracted from the other vector">
+      <grouped>vectors</grouped>
+      <position>2</position>
+      <children>
+        <active>vectorx</active>
+        <active>vectory</active>
+        <active>vectorxminusy</active>
+      </children>
+      <components>
+        <active>vectorx</active>
+        <active>vectory</active>
+        <active>vectorxminusy</active>
+      </components>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorx" speech2="Vector x">
+      <active>vectorx</active>
+      <position>1</position>
+      <parents>
+        <grouped>vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectory" speech2="Vector y">
+      <active>vectory</active>
+      <position>2</position>
+      <parents>
+        <grouped>vectors</grouped>
+      </parents>
+    </annotation>
+    <annotation id="vectorxminusy" speech2="Vector x minus vector y drawn with tail at the head of y">
+      <active>vectorxminusy</active>
+      <position>3</position>
+      <parents>
+        <grouped>vectors</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

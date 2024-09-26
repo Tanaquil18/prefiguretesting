@@ -32,17 +32,8 @@
                     <m>\vec{x}-\vec{y}</m>
                 </label>
             </group>
-            <!-- <vector at="vector1times3" v="(3,3)" stroke="black" />
-            <vector at="negativevector2" v="(2,-1)" stroke="black" /> -->
         </group>
         
-        
-        <!-- <label anchor="(2.9,3.1)" alignment="northwest" >
-            <m>3\vec{x}</m>
-        </label>
-        <label anchor="(2,-0.8)" tactile-anchor="(2.5,-0.8)" alignment="north" >
-            <m>-\vec{y}</m>
-        </label> -->
 
     </coordinates>
 
@@ -50,14 +41,11 @@
     <annotation ref="figure"
                 text="The two-dimensional plane with axes, a vector x, a vector y, and the vector x minus vector y">
         <annotation ref="axes" text="The coordinate axes" />
-        <!-- <annotation ref="vectors" text="Two vectors"> -->
           <annotation ref="vectorx" text="Vector x"/>
-          <!-- <annotation ref="vector1times3" text="Three times vector x drawn pointing up 3 and to the right 3"/> -->
           <annotation ref="vectory" text="Vector y"/>
           <annotation ref="vectornegy" text="Vector negative y"/>
           <annotation ref="vectorxminusy" text="Vector x minus vector y drawn with tail at the origin" />
           <annotation ref="vectorxminusytailchange" text="Vector x minus vector y drawn with tail at the head of y" />
-        <!-- </annotation> -->
       </annotation>
   </annotations>
 </diagram>
