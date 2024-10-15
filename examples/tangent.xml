@@ -1,8 +1,7 @@
 <diagram dimensions="(300,300)" margins="5">
   <definition>a=1</definition>
-  <definition>b=-1</definition>
   <definition>f(x) = exp(x/3)*cos(x)</definition>
-  <coordinates bbox="[-5,-5,5,5]">
+  <coordinates bbox="[-4,-4,4,4]">
     <grid-axes xlabel="x" ylabel="y"/>
 
     <group at="graph-tangent">
@@ -10,12 +9,7 @@
       <tangent-line at="tangent" function="f" point="a"
 		    infinite="yes"/>
       <point at="point" p="(a, f(a))">
-	<m>(a,f(a))</m> 
-      </point>
-      <tangent-line at="tangent" function="f" point="b"
-		    infinite="yes"/>
-      <point at="point2" p="(b, f(b))" alignment="nw">
-	<m>(b,f(b))</m>
+	<m>(a,f(a))</m>
       </point>
     </group>
   </coordinates>
